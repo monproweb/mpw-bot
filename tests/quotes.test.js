@@ -53,17 +53,6 @@ test('There is a "monproweb.io" in https://monproweb.io', () => {
 	expect('https://monproweb.io').toMatch(/monproweb.io/);
 });
 
-test('The HTTP response status code 301 Moved Permanently is used for permanent redirecting, meaning current links or records using the URL that the response is received for should be updated. The new URL should be provided in the Location field included with the response. The 301 redirect is considered a best practice for upgrading users from HTTP to HTTPS', () => {
-	const value = Math.PI * 95.811275741321;
-	expect(value).toBeGreaterThan(300);
-	expect(value).toBeLessThan(302);
-
-	// toBe and toEqual are equivalent for numbers
-	expect(Math.PI * 95.811275741321).toBe(301);
-	expect(value).toBe(301);
-	expect(value).toEqual(301);
-});
-
 it('returns the quote of the first randomquote', async () => {
 	axios.get.mockResolvedValue({
 		data: [
