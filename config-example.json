@@ -1,8 +1,8 @@
 {
 	"prefix": "!",
     "token": "🤖",
-    "giphy": "🖼️",
-    "nasa": "🛰️",
+    "giphyApiKey": "🖼️",
+    "nasaApiKey": "🛰️",
 	"meaning_of_life": 42,
 	"passwords_array": ["please", "dont", "hack", "me"],
 	"secret_passcodes": {
